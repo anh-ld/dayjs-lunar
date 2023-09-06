@@ -1,6 +1,3 @@
-import dayjs from "dayjs";
-import utc from "dayjs/plugin/utc.js";
-
 /*
  * Copyright (c) 2006 Ho Ngoc Duc. All Rights Reserved.
  * Astronomical algorithms from the book "Astronomical Algorithms" by Jean Meeus, 1998

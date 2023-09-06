@@ -1,6 +1,6 @@
 {
   "name": "@anh-ld/dayjs-lunar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parse solar date → lunar date in day.js",
   "source": "index.js",
   "main": "dist/index.js",
