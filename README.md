@@ -36,10 +36,10 @@ import lunar from '@anh-ld/dayjs-lunar';
 dayjs.extend(utc);
 dayjs.extend(lunar);
 
-// for Vietnamese calendar GMT +7
+// for Vietnamese calendar, GMT +7
 dayjs().utcOffset(7).toLunar().toString();
 
-// for Chinese calendar GMT +7
+// for Chinese calendar, GMT +8
 dayjs().utcOffset(8).toLunar().toString();
 ```
 
