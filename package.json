@@ -1,7 +1,7 @@
 {
-  "name": "dayjs-lunar",
+  "name": "@anh-ld/dayjs-lunar",
   "version": "1.0.0",
-  "description": "",
+  "description": "Parse solar date → lunar date in day.js",
   "source": "index.js",
   "main": "dist/index.js",
   "type": "module",
@@ -9,6 +9,13 @@
     "lint": "npx biome format . --write",
     "build": "parcel build",
     "test": "node test.js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anh-ld/dayjs-lunar.git"
   },
   "files": [
     "dist",
